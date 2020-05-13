@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Bienvenido a el Colegio Hispano Americano Octavio Paz</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Slab&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet">
+    <style>
+        /* SUPER RESET */
+        * {
+            -moz-box-sizing: border-box;
+            -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+        }
+
+        html {
+            line-height: 1.15;
+            -ms-text-size-adjust: 100%;
+            -webkit-text-size-adjust: 100%;
+        }
+
+        a,
+        body,
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6,
+        p {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            -webkit-font-smoothing: antialiased;
+            text-rendering: optimizeLegibility;
+            font-feature-settings: "pnum";
+            font-variant-numeric: proportional-nums;
+        }
+
+        /* HEADER */
+        header {
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+            padding: 18px;
+        }
+
+        /* BODY */
+        section {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+
+            width: 100%;
+            min-height: 100%;
+            height: auto;
+            padding: 20px;
+
+            text-align: center;
+
+            background: #ffd90033;
+        }
+
+        .title {
+            font-family: 'Roboto Slab';
+            font-size: 30px;
+            margin: 20px 0;
+        }
+
+        .text {
+            font-family: 'Raleway';
+            font-size: 18px;
+            margin: 10px 0;
+        }
+
+        .cards {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            align-self: center;
+            height: auto;
+            width: 100%;
+            padding: 20px;
+        }
+
+        .card {
+            width: 250px;
+            background-color: #d4b50033;
+            border-radius: 5px;
+            padding: 20px;
+            height: auto;
+            margin: 10px 10px;
+        }
+
+        .card-title {
+            font-family: 'Roboto Slab';
+            font-size: 21px;
+        }
+
+        .card-text {
+            text-align: start;
+            padding: 10px;
+        }
+
+        .card-text p {
+            font-family: 'Raleway';
+            font-size: 13px;
+            margin: 10px 0;
+        }
+
+        .signature {
+            font-family: 'Raleway';
+            font-weight: 800;
+            font-size: 15px;
+            margin: 10px 0;
+        }
+
+        .btn-login {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+
+            background: -webkit-linear-gradient(to right, #ffe159e5, #ff5724e5);
+            background: -moz-linear-gradient(to right, #ffe159e5, #ff5724e5);
+            background: linear-gradient(to right, #ffe159e5, #ff5724e5);
+            border-radius: 24px;
+
+            height: 50px;
+            width: 200px;
+            margin: 10px 0;
+
+            color: white;
+            font-family: 'Raleway';
+            font-weight: 900;
+            text-decoration: none;
+            font-size: 24px;
+            cursor: pointer;
+        }
+
+        .link {
+            font-family: 'Raleway';
+            font-size: 21px;
+        }
+
+        /* FOOTER */
+        footer {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+        }
+
+        .footer-item {
+            text-align: center;
+            width: 25px;
+            height: 25px;
+            margin: 0 10px;
+            text-decoration: none;
+        }
+
+        .footer-item img {
+            height: 100%;
+            width: auto;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <img src="https://www.colegiooctaviopaz.com/assets/images/logo.png" style="height: 76px; width: auto;">
+    </header>
+
+    <section>
+        <p class="title">Colegio Hispano Americano Octavio Paz</p>
+        <p class="text">Revisa nuestras ofertas educativas y promociones.</p>
+
+        <div class="cards">
+            <div class="card">
+                <div class="card-title">Preescolar</div>
+                <div class="card-text">
+                    <p>Inscripción: <span style="font-weight: 800;">$1,000</span></p>
+                    <p>Material: <span style="font-weight: 800; align-self: end;">$1,300</span></p>
+                    <p>Colegiatura: <span style="font-weight: 800;">$1,000</span> (12 meses)</p>
+                    <p>Seguro escolar: <span style="font-weight: 800;">$250</span></p>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-title">Primaria</div>
+                <div class="card-text">
+                    <p>Inscripción: <span style="font-weight: 800;">$1,500</span></p>
+                    <p>Material: <span style="font-weight: 800; align-self: end;">$1,300</span></p>
+                    <p>Colegiatura: <span style="font-weight: 800;">$1,890</span> (12 meses)</p>
+                    <p>Seguro escolar: <span style="font-weight: 800;">$250</span></p>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-title">Secundaria</div>
+                <div class="card-text">
+                    <p>Inscripción: <span style="font-weight: 800;">$1,500</span></p>
+                    <p>Material: <span style="font-weight: 800; align-self: end;">$1,300</span></p>
+                    <p>Colegiatura: <span style="font-weight: 800;">$1,990</span> (12 meses)</p>
+                    <p>Seguro escolar: <span style="font-weight: 800;">$250</span></p>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- <a href="https://www.colegiooctaviopaz.com/" target="_blank" class="btn-login">Ingresar</a> -->
+
+        <p class="text">
+            ¡Unete a la escuela de excelencia educativa!
+        </p>
+        <p class="signature">
+            ¿Estás listo para emprender el reto?
+        </p>
+
+        <a class="btn-login" href="mailto:direccion@colegiooctaviopaz.com">INSCRIBETE</a>
+    </section>
+
+    <footer>
+        <a href="https://www.facebook.com/hispanoamericanooctaviopaz/" class="footer-item">
+            <img src="https://unpkg.com/ionicons@5.0.0/dist/svg/logo-facebook.svg">
+        </a>
+
+        <a href="https://twitter.com/ColOctavioPaz/" class="footer-item">
+            <img src="https://unpkg.com/ionicons@5.0.0/dist/svg/logo-twitter.svg">
+        </a>
+
+        <a href="https://www.instagram.com/colegiooctaviopaz/" class="footer-item">
+            <img src="https://unpkg.com/ionicons@5.0.0/dist/svg/logo-instagram.svg">
+        </a>
+
+        <!-- <a href="https://www.linkedin.com/company/colegio/" class="footer-item">
+            <img src="https://s3-us-west-2.amazonaws.com/flipservices.dinerous.com/assets/images/icon-in.png">
+        </a> -->
+
+    </footer>
+</body>
+
+</html>
