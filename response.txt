@@ -1,0 +1,65 @@
+Authorize this app by visiting this url: https: //accounts.google.com/o/oauth2/v2/auth?access_type=offline&scope=https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fgmail.readonly&response_type=code&client_id=1032643015793-gtocs0ctfl12lc5cat72017golqi1gtl.apps.googleusercontent.com&redirect_uri=https%3A%2F%2Fwww.colegiooctaviopaz.com%2F
+Enter the code from that page here: 4%2FzgETd1yt-4_m48jJYQcDyXGhO_q1kj70KOGPYavoI-NWmfnutuD-BUEpjEJnpgskQZTazjhTe04YvUW4bTT8NM0&scope=https:%2F%2Fwww.googleapis.com%2Fauth%2Fgmail.readonly
+Error retrieving access token GaxiosError: invalid_grant
+    at Gaxios.<anonymous> (/Users/joangonzalez/Documents/Personal/ColegioOctavioPaz/emails/node_modules/gaxios/build/src/gaxios.js: 73: 27)
+    at Generator.next (<anonymous>)
+    at fulfilled (/Users/joangonzalez/Documents/Personal/ColegioOctavioPaz/emails/node_modules/gaxios/build/src/gaxios.js: 16: 58)
+    at processTicksAndRejections (internal/process/task_queues.js: 97: 5) {
+  response: {
+    config: {
+      method: 'POST',
+      url: 'https: //oauth2.googleapis.com/token',
+      data: 'code=4%252FzgETd1yt-4_m48jJYQcDyXGhO_q1kj70KOGPYavoI-NWmfnutuD-BUEpjEJnpgskQZTazjhTe04YvUW4bTT8NM0%26scope%3Dhttps%3A%252F%252Fwww.googleapis.com%252Fauth%252Fgmail.readonly&client_id=1032643015793-gtocs0ctfl12lc5cat72017golqi1gtl.apps.googleusercontent.com&client_secret=zT0my1l_s5ddzZ-ghnqh5Hhn&redirect_uri=https%3A%2F%2Fwww.colegiooctaviopaz.com%2F&grant_type=authorization_code&code_verifier=',
+      headers: [Object
+            ],
+      params: [Object: null prototype
+            ] {},
+      paramsSerializer: [Function: paramsSerializer
+            ],
+      body: 'code=4%252FzgETd1yt-4_m48jJYQcDyXGhO_q1kj70KOGPYavoI-NWmfnutuD-BUEpjEJnpgskQZTazjhTe04YvUW4bTT8NM0%26scope%3Dhttps%3A%252F%252Fwww.googleapis.com%252Fauth%252Fgmail.readonly&client_id=1032643015793-gtocs0ctfl12lc5cat72017golqi1gtl.apps.googleusercontent.com&client_secret=zT0my1l_s5ddzZ-ghnqh5Hhn&redirect_uri=https%3A%2F%2Fwww.colegiooctaviopaz.com%2F&grant_type=authorization_code&code_verifier=',
+      validateStatus: [Function: validateStatus
+            ],
+      responseType: 'json'
+        },
+    data: {
+      error: 'invalid_grant',
+      error_description: 'Malformed auth code.'
+        },
+    headers: {
+      'alt-svc': 'h3-27=":443"; ma=2592000,h3-25=":443"; ma=2592000,h3-Q050=":443"; ma=2592000,h3-Q049=":443"; ma=2592000,h3-Q048=":443"; ma=2592000,h3-Q046=":443"; ma=2592000,h3-Q043=":443"; ma=2592000,quic=":443"; ma=2592000; v="46,43"',
+      'cache-control': 'private',
+      connection: 'close',
+      'content-encoding': 'gzip',
+      'content-type': 'application/json; charset=utf-8',
+      date: 'Wed,
+            13 May 2020 00: 38: 33 GMT',
+      server: 'scaffolding on HTTPServer2',
+      'transfer-encoding': 'chunked',
+      vary: 'Origin, X-Origin, Referer',
+      'x-content-type-options': 'nosniff',
+      'x-frame-options': 'SAMEORIGIN',
+      'x-xss-protection': '0'
+        },
+    status: 400,
+    statusText: 'Bad Request'
+    },
+  config: {
+    method: 'POST',
+    url: 'https: //oauth2.googleapis.com/token',
+    data: 'code=4%252FzgETd1yt-4_m48jJYQcDyXGhO_q1kj70KOGPYavoI-NWmfnutuD-BUEpjEJnpgskQZTazjhTe04YvUW4bTT8NM0%26scope%3Dhttps%3A%252F%252Fwww.googleapis.com%252Fauth%252Fgmail.readonly&client_id=1032643015793-gtocs0ctfl12lc5cat72017golqi1gtl.apps.googleusercontent.com&client_secret=zT0my1l_s5ddzZ-ghnqh5Hhn&redirect_uri=https%3A%2F%2Fwww.colegiooctaviopaz.com%2F&grant_type=authorization_code&code_verifier=',
+    headers: {
+      'Content-Type': 'application/x-www-form-urlencoded',
+      'User-Agent': 'google-api-nodejs-client/3.1.2',
+      Accept: 'application/json'
+        },
+    params: [Object: null prototype
+        ] {},
+    paramsSerializer: [Function: paramsSerializer
+        ],
+    body: 'code=4%252FzgETd1yt-4_m48jJYQcDyXGhO_q1kj70KOGPYavoI-NWmfnutuD-BUEpjEJnpgskQZTazjhTe04YvUW4bTT8NM0%26scope%3Dhttps%3A%252F%252Fwww.googleapis.com%252Fauth%252Fgmail.readonly&client_id=1032643015793-gtocs0ctfl12lc5cat72017golqi1gtl.apps.googleusercontent.com&client_secret=zT0my1l_s5ddzZ-ghnqh5Hhn&redirect_uri=https%3A%2F%2Fwww.colegiooctaviopaz.com%2F&grant_type=authorization_code&code_verifier=',
+    validateStatus: [Function: validateStatus
+        ],
+    responseType: 'json'
+    },
+  code: '400'
+}
