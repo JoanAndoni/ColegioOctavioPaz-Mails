@@ -18,6 +18,7 @@
   "homepage": "https://github.com/JoanAndoni/ColegioOctavioPaz-Mails#readme",
   "dependencies": {
     "fs": "0.0.1-security",
-    "googleapis": "^39.2.0"
+    "googleapis": "^39.2.0",
+    "js-base64": "^2.5.2"
   }
 }
